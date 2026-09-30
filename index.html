@@ -4,20 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Student Information</title>
+    <title>Sanket Patil | Student Profile</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <div class="container">
-        <h1>Student Information</h1>
+    <div class="background-circle circle-one"></div>
+    <div class="background-circle circle-two"></div>
 
-        <p id="name"></p>
-        <p id="college"></p>
-        <p id="department"></p>
-    </div>
+    <main class="profile-card">
+
+        <div class="profile-image">
+            <span id="initials">SP</span>
+        </div>
+
+        <p class="welcome">WELCOME TO MY PROFILE</p>
+
+        <h1 id="name">Sanket Patil</h1>
+
+        <p class="subtitle">
+            Computer Engineering Student
+        </p>
+
+        <div class="line"></div>
+
+        <div class="info-container">
+
+            <div class="info-box">
+                <div class="icon">🎓</div>
+
+                <div>
+                    <span>College</span>
+                    <h3 id="college">RCPCOEP</h3>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <div class="icon">💻</div>
+
+                <div>
+                    <span>Department</span>
+                    <h3 id="department">Computer Engineering</h3>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <div class="icon">👨‍💻</div>
+
+                <div>
+                    <span>Student</span>
+                    <h3 id="student">Sanket Patil</h3>
+                </div>
+            </div>
+
+        </div>
+
+        <button id="contactButton">
+            Explore Profile
+        </button>
+
+        <p id="message"></p>
+
+        <footer>
+            © 2026 Sanket Patil
+        </footer>
+
+    </main>
 
     <script src="script.js"></script>
+
 </body>
 </html>
