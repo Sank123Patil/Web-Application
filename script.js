@@ -1,6 +1,8 @@
-const button = document.getElementById("myButton");
-const message = document.getElementById("message");
+document.getElementById("name").textContent =
+    "Name: Sanket Patil";
 
-button.addEventListener("click", function () {
-  message.textContent = "Hello! The button was clicked.";
-});
+document.getElementById("college").textContent =
+    "College Name: RCPCOEP";
+
+document.getElementById("department").textContent =
+    "Department: Computer Engineering";
