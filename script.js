@@ -1,32 +1,52 @@
-const student = {
-    name: "Sanket Patil",
-    college: "RCPCOEP",
-    department: "Computer Engineering"
-};
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  min-height: 100vh;
 
-// Display information
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-document.getElementById("name").textContent = student.name;
+.container {
+  background: white;
+  width: 90%;
+  max-width: 500px;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
 
-document.getElementById("college").textContent = student.college;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
 
-document.getElementById("department").textContent = student.department;
+h1 {
+  margin-bottom: 15px;
+  color: #222;
+}
 
-document.getElementById("student").textContent = student.name;
+p {
+  margin-bottom: 25px;
+  color: #666;
+}
 
+button {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
 
-// Button functionality
+  background-color: #007bff;
+  color: white;
 
-const button = document.getElementById("contactButton");
+  font-size: 16px;
+  cursor: pointer;
+}
 
-const message = document.getElementById("message");
-
-button.addEventListener("click", function () {
-
-    message.textContent =
-        "Welcome to Sanket Patil's profile! 🚀";
-
-    button.textContent = "Profile Viewed ✓";
-
-});
+button:hover {
+  background-color: #0056b3;
+}
